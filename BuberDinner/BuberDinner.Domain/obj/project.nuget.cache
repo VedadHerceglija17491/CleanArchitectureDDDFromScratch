@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ofQWxwlPvlcb8f1ndsl3EvNN53/DhlxDmWYdemX7YggsRKeSXAWQ4OfqAt45/vHVlL/qSXB/iN0I5VC6IPEWAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hvedad\\source\\repos\\CleanArchitectureDDDFromScratch\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hvedad\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
