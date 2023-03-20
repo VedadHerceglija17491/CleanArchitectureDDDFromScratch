@@ -1,16 +1,15 @@
+using BubberDinner.Application.Authentication.Common;
 using BubberDinner.Application.Common.Intercfaces.Persistance;
 using BubberDinner.Domain.Entities;
 using BuberDinner.Application.Common.Intercfaces.Authentication;
-using BuberDinner.Application.Services.Authentication.Common;
 using ErrorOr;
 using MediatR;
 
 namespace BubberDinner.Application.Authentication.Commands.Register;
 
-
 public class RegisterCommandHandler : IRequestHandler<RegisterCommand, ErrorOr<AuthenticationResult>>
 {
-      private readonly IJwtTokenGenerator _jwtTokenGenerator;
+    private readonly IJwtTokenGenerator _jwtTokenGenerator;
     private readonly IUserRepository _userRepository;
 
     public RegisterCommandHandler(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
@@ -18,7 +17,6 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, ErrorOr<A
         _jwtTokenGenerator = jwtTokenGenerator;
         _userRepository = userRepository;
     }
-
 
    public async Task<ErrorOr<AuthenticationResult>> Handle (RegisterCommand command, CancellationToken cancellationToken)
     {

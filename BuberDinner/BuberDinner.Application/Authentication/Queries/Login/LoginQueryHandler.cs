@@ -1,7 +1,7 @@
+using BubberDinner.Application.Authentication.Common;
 using BubberDinner.Application.Common.Intercfaces.Persistance;
 using BubberDinner.Domain.Entities;
 using BuberDinner.Application.Common.Intercfaces.Authentication;
-using BuberDinner.Application.Services.Authentication.Common;
 using ErrorOr;
 using MediatR;
 
@@ -22,14 +22,14 @@ public class LoginQueryHandler : IRequestHandler<LoginQuery, ErrorOr<Authenticat
 
    public async Task<ErrorOr<AuthenticationResult>> Handle (LoginQuery query, CancellationToken cancellationToken)
     {
-       if(_userRepository.GetUserByEmail(request.Email) is not User user )
+       if(_userRepository.GetUserByEmail(query.Email) is not User user )
         {
             // ovo je opasno jer se daje prilika da se password pogadja
            return Domain.Common.Errors.Errors.Authentication.InvalidCredentials;
         }
 
         // 2. Validate the password is corect 
-        if(user.Password != request.Password)
+        if(user.Password != query.Password)
         {
             return Domain.Common.Errors.Errors.Authentication.InvalidCredentials;
         } 
