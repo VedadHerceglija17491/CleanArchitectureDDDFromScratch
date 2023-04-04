@@ -54,3 +54,7 @@ C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDi
 C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.dll
 C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.Core.dll
 C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\obj\Debug\net6.0\BuberDinner.Api.MvcApplicationPartsAssemblyInfo.cs

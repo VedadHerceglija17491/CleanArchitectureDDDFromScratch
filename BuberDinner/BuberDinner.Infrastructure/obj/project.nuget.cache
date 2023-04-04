@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "0mnv7VtAJ5Ovu6LmA+ScGbKUaTsPPmPZZswaNHYgzad5fEqgYfTpxoskzOgMeKkRJ2fpqVrbzuAlGmhsa9eFYw==",
+  "dgSpecHash": "6QaLXjYwLD+i2ZsLPbKb83ie1o5X40dxGD6KdVsjf48mYieEPjMMJCUrUnMNWeV0owhZ06n2sJiPl3ZIc+5QBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\hvedad\\source\\repos\\CleanArchitectureDDDFromScratch\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hvedad\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\hvedad\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\hvedad\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\hvedad\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\hvedad\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\hvedad\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\hvedad\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\hvedad\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
