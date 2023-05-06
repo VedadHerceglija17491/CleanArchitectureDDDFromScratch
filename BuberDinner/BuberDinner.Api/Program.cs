@@ -16,6 +16,8 @@ var app = builder.Build();
    
     app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
+    app.UseAuthentication(); // dodatii
+    app.UseAuthorization();
     app.MapControllers();
     app.Run();
 }
