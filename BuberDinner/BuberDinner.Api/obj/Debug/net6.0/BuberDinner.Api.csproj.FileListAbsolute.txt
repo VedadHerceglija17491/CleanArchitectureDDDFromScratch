@@ -58,3 +58,6 @@ C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDi
 C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\obj\Debug\net6.0\BuberDinner.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hvedad\source\repos\CleanArchitectureDDDFromScratch\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
